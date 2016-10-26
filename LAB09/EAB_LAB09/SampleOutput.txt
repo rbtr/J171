@@ -1,0 +1,34 @@
+Sample output: (There isn't much because most of this is graphics)
+Running...
+
+
+Options:
+	1) Run all tests
+	2) Logger
+	3) Equalizer
+	4) PanelFrame
+	5) Grid
+	6) Checkerboard
+	7) Bullseye
+	8) Grid w/ Labels
+	9) Grid w/ Bordered Labels
+	10) Custom GUI
+
+Enter a selection or any other key to exit: 1
+Testing all!
+Testing logger. Is Logger a singleton? -> true
+
+a == b; a,b != c
+null, null: true
+null, objA: false
+objA, null: false
+objA, objA: true
+objA, objB: true
+objA, objC: false
+Testing PanelFrame
+Testing Grid
+Testing Checkerboard
+Testing Bullseye
+Testing Grid w/ Labels
+Testing Bordered Grid w/ Labels
+Testing Custom GUI

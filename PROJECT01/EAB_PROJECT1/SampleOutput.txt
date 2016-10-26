@@ -1,0 +1,68 @@
+$> EAB_PROJECT1 evan$ ./build.sh 
+Compiling package and tests...
+
+$> EAB_PROJECT1 evan$ ./run.sh 
+Playing game...
+What's your name?
+Evan
+Ok, Evan, how many AI players would you like in the game?
+3
+	Dealer	8	Evan	9	Player 1	6	Player 2	3	Player 3	11
+
+Would you like to hit?
+n
+	Dealer	19	Evan	9	Player 1	13	Player 2	8	Player 3	16
+
+	Dealer	19	Evan	9	Player 1	15	Player 2	18	Player 3	16
+
+	Dealer	19	Evan	9	Player 1	19	Player 2	18	Player 3	25
+
+	Dealer	19	Evan	9	Player 1	19	Player 2	18	Player 3	25
+
+The dealer beat Evan
+The dealer beat Player 1
+The dealer beat Player 2
+The dealer beat Player 3
+
+$> EAB_PROJECT1 evan$ ./run.sh 
+Playing game...
+What's your name?
+Evan
+Ok, Evan, how many AI players would you like in the game?
+1
+	Dealer	11	Evan	10	Player 1	4
+
+Would you like to hit?
+n
+	Dealer	16	Evan	10	Player 1	15
+
+	Dealer	18	Evan	10	Player 1	15
+
+	Dealer	18	Evan	10	Player 1	22
+
+	Dealer	18	Evan	10	Player 1	22
+
+The dealer beat Evan
+The dealer beat Player 1
+
+$> EAB_PROJECT1 evan$ ./run.sh 
+Playing game...
+What's your name?
+Evan
+Ok, Evan, how many AI players would you like in the game?
+4
+	Dealer	10	Evan	3	Player 1	10	Player 2	10	Player 3	5	Player 4	7
+
+Would you like to hit?
+y
+	Dealer	14	Evan	10	Player 1	12	Player 2	21	Player 3	11	Player 4	17
+
+Would you like to hit?
+y
+	Dealer	24	Evan	20	Player 1	22	Player 2	21	Player 3	14	Player 4	17
+
+Evan beat the Dealer
+The dealer beat Player 1
+Player 2 beat the Dealer
+Player 3 beat the Dealer
+Player 4 beat the Dealer

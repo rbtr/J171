@@ -1,0 +1,50 @@
+$ java LAB03_0_Driver
+Obj1
+Launch height: 1.0
+Launch speed: 10.0
+Launch angle (degrees): 45.0
+Launch angle (radians): 0.7853981633974483
+Flight time: 1.2841517666022004
+Range: 9.080324222371004
+Time to peak: 0.7215375318230076
+Peak heigt: 3.5510204081632653
+
+Obj2
+Launch height: 1.0
+Launch speed: 10.0
+Launch angle (degrees): 45.0
+Launch angle (radians): 0.7853981633974483
+Flight time: 1.2841517666022004
+Range: 9.080324222371004
+Time to peak: 0.7215375318230076
+Peak heigt: 3.5510204081632653
+
+Obj3
+Launch height: 2.0
+Launch speed: 53.85164807134504
+Launch angle (degrees): 68.19859051364818
+Launch angle (radians): 1.1902899496825317
+Flight time: 3.9790547054014302
+Range: 198.9527352700715
+Time to peak: 2.0408163265306123
+Peak heigt: 22.40816326530612
+
+Obj1
+Launch height: 1.0
+Launch speed: 10.0
+Launch angle (degrees): 45.0
+Launch angle (radians): 0.7853981633974483
+Flight time: 1.2841517666022004
+Range: 9.080324222371004
+Time to peak: 0.7215375318230076
+Peak heigt: 3.5510204081632653
+
+Obj3.modified
+Launch height: 1.0
+Launch speed: 53.85164807134504
+Launch angle (degrees): 68.19859051364818
+Launch angle (radians): 1.1902899496825317
+Flight time: 4.031004670879167
+Range: 201.55023354395834
+Time to peak: 2.0408163265306123
+Peak heigt: 21.40816326530612

@@ -1,0 +1,46 @@
+Sample output: (Half of this is graphics)
+
+$ ./run.sh
+Running...
+Select an option
+1) Run CLI tests
+2) Display GUI components
+1
+Section 1
+Car passed tests
+Section 2
+Does this checkerboard look ok?
+|B*||R ||B*||R ||B*||R ||B*||R |
+|R ||B*||R ||B*||R ||B*||R ||B*|
+|B*||R ||B*||R ||B*||R ||B*||R |
+|R ||B ||R ||B ||R ||B ||R ||B |
+|B ||R ||B ||R ||B ||R ||B ||R |
+|R ||B*||R ||B*||R ||B*||R ||B*|
+|B*||R ||B*||R ||B*||R ||B*||R |
+|R ||B*||R ||B*||R ||B*||R ||B*|
+
+Section 8/9
+Testing IoExamples with README.txt
+File found!
+Testing IoExamples with aoeu.txt
+File does not exist!
+Testing IoExapmles throwable with README.txt
+File found!
+Testing IoExamples throwable with aoeu.txt
+aoeu.txt does not exists and doesFileExist correctly threw an exception
+IoExamples passed all tests
+Go again?
+(y)es/no :y
+Select an option
+1) Run CLI tests
+2) Display GUI components
+2
+Section 3
+Section 4
+Section 5
+Section 6
+Section 7
+Go again?
+(y)es/no :n
+
+$

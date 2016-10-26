@@ -1,0 +1,109 @@
+Sample output:
+This output shows logging in to the Bank that has a Customer account already, selecting an account, depositing to it, showing the transaction history, withdrawing from the account, creating a new savings account, and depositing to the new account (in that order).
+
+$ ./run.sh 
+Running...
+Welcome to Bank of Evan
+
+Would you like to
+1) Log in
+2) Create an account
+:>1
+Log in to Bank of Evan
+Username: cust0
+Password: pass0
+Accounts
+#0 $0.0
+#1 $0.0 Savings %0.5
+#2 $0.0
+
+Would you like to:
+1) View accounts
+2) Create a new account
+:>1
+
+Select an account to continue: 
+#1
+Selected Account
+#1 $0.0 Savings %0.5
+
+What would you like to do?
+1) Deposit
+2) Withdraw
+:>1
+Enter deposit amount
+$500
+Transaction History:
+Transaction #0 $500.0 
+
+Continue?
+(yes/n)
+:>y
+Accounts
+#0 $0.0
+#1 $500.0 Savings %0.5
+#2 $0.0
+
+Would you like to:
+1) View accounts
+2) Create a new account
+:>1
+
+Select an account to continue: 
+#1
+Selected Account
+#1 $500.0 Savings %0.5
+
+What would you like to do?
+1) Deposit
+2) Withdraw
+:>2
+Enter withdrawal amount
+$250
+Transaction History:
+Transaction #0 $500.0 
+Transaction #1 $-250.0  ATM
+
+Continue?
+(yes/n)
+:>y
+Accounts
+#0 $0.0
+#1 $250.0 Savings %0.5
+#2 $0.0
+
+Would you like to:
+1) View accounts
+2) Create a new account
+:>2
+Select an account type
+1) Checking
+2) Savings
+:>2
+Enter an interest rate:
+%2.5
+Accounts
+#0 $0.0
+#1 $250.0 Savings %0.5
+#2 $0.0
+#6 $0.0 Savings %2.5
+
+Select an account to continue: 
+#6
+Selected Account
+#6 $0.0 Savings %2.5
+
+What would you like to do?
+1) Deposit
+2) Withdraw
+:>1
+Enter deposit amount
+$400
+Transaction History:
+Transaction #2 $400.0 
+
+Continue?
+(yes/n)
+:>n
+ebmbp:PROJECT02 evan$ 
+

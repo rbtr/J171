@@ -1,0 +1,42 @@
+$ EAB_LAB06 evan$ ./build.sh 
+> Compiling /products/ package and tests...
+> Compiling /warehouse/ package and tests...
+> Compiling /checkers/ package and tests...
+
+$ EAB_LAB06 evan$ ./test.sh 
+> Testing /products/ package...
+> ## TESTING TOY
+> 
+> Name: testToyName; Serial: #testToySerial; Price: $10.04; Ages 3 - 99
+> Toy passed test.
+> ## TESTING BOOK
+> 
+> Name: testBookName; Serial: #testBookSerial; Price: $10.04; By testAuthor; 397 pages
+> Book passed test.
+> 
+> Testing /warehouse/ package...
+> ## TESTING WAREHOUSE
+> 
+> Products in Warehouse: 
+> 
+> Warehouse passed test.
+> Products in Warehouse: 
+> Toys: 
+> 	Name: testToyName; Serial: #testToySerial; Price: $10.04; Ages 3 - 99
+> 	Name: testToyName; Serial: #testToySerial; Price: $10.04; Ages 3 - 99
+> Books: 
+> 	Name: testBookName; Serial: #testBookSerial; Price: $10.04; By testAuthor; 397 pages
+> 
+> 
+> Testing /checkers/ package...
+> ## TESTING CHECKERBOARD
+> 
+> Does this checkerboard look ok?
+> |B*||R ||B*||R ||B*||R ||B*||R |
+> |R ||B*||R ||B*||R ||B*||R ||B*|
+> |B*||R ||B*||R ||B*||R ||B*||R |
+> |R ||B ||R ||B ||R ||B ||R ||B |
+> |B ||R ||B ||R ||B ||R ||B ||R |
+> |R ||B*||R ||B*||R ||B*||R ||B*|
+> |B*||R ||B*||R ||B*||R ||B*||R |
+> |R ||B*||R ||B*||R ||B*||R ||B*|
